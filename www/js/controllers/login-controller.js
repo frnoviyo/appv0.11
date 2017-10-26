@@ -2,7 +2,7 @@
 
 function loginController (loginService, $state, $rootScope, notificationService, $window, $ionicSideMenuDelegate) {
   var lc = this;
-
+  //Test github
   lc.login = login;
   lc.legacylogin = legacylogin;
   lc.register = register;
