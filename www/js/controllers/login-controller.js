@@ -7,7 +7,7 @@ function loginController (loginService, $state, $rootScope, notificationService,
   lc.legacylogin = legacylogin;
   lc.register = register;
   lc.checkForm = checkForm;
-
+  //mas cambios
   init();
   resetValues();
   return lc;
